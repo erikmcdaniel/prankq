@@ -1,0 +1,54 @@
+img {
+	height: 15%;
+	width: 15%;
+	opacity: 0.6;
+	border: black 1px solid;
+}
+h1 {
+	color: red;
+	/*opacity: 0.6;*/
+}
+p {
+	color: blue;
+}
+h1:hover {
+  background-color: paleturquoise;
+	height: 50%;
+	width: 15%;
+}
+img:hover {
+  background-color: paleturquoise;
+}
+#button-no:hover {
+	background-color: red;
+}
+.last:hover {
+	background-color: red;
+	height: 10%;
+	width: 4%;
+}
+.heading-main {
+	transform: translate(25px, 10px)
+	width: 25%;
+	text-align: left;
+}
+.heading-main:hover {
+	transform: rotate(180deg);
+}
+div {
+  transition: all 1s;
+}
+
+div:hover {
+  transform: rotate(180deg);
+  /*background-color: red;*/
+	width: 200px;
+}
+
+#input {
+  transition: all 1s;
+}
+
+#input.glow-red {
+  background-color: red;
+}
